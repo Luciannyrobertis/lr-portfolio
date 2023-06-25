@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --colorPrimary: #7d73f9;
+    --color: #f4f5ed;
+    --color2:#e6e6fa;  
+    --color3: #facf56;
+    --color4: #E91E63;
+    --color6: #5d54ca;
+    --color7: #200c7e;
+    --time: 6s;
+ 
+ }
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     font-size: 16px;
+     font-family: sans-serif;
+ }
+ 
+

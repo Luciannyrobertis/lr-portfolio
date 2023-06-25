@@ -1,0 +1,15 @@
+<style>
+    .resaltar{
+        background-color: aqua;
+    }
+    .blue{
+        color: #0b0348;
+    }
+
+</style>
+<h1 >Button</h1>
+<button [ngStyle]="{'background-color': color}">{{label}}</button> 
+
+<ul *ngFor="let cit of city" [ngStyle]="{'background-color' : '#0dd735'}">
+    <li (click)="resaltar(cit)" [ngClass]="{'resaltar': cit === selection}">{{cit}}</li>
+</ul>

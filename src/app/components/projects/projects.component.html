@@ -14,7 +14,7 @@
         <div class="filter" (click)="getJS()" [ngClass]="{'resaltado': seleccion =='javascript' }">JAVASCRIPT</div>
     </div>
     <div  class="galery fadeDown" appIntersectionVisible>
-        <div id="project"  class="category"  *ngFor="let t of listaProjects; let i=index" style="background-image: url(../../../assets/img/{{t.imagen}});">
+        <div id="project"  class="category"  *ngFor="let t of listaProjects; let i=index" style="background-image: url(assets/img/{{t.imagen}});">
             <div class="text-project">
                  <h3>{{t.titulo}}</h3>
                 <span>{{t.category}}</span>

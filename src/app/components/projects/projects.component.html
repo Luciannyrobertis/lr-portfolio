@@ -7,12 +7,12 @@
 <section id="projects" #project>
     <div class="titlte-Project" appIntersectionVisibleTwo >Proyectos</div>
     <div class="line-Project derecha" appIntersectionVisible ></div>
-    <div class="contenedor-filter" appIntersectionVisibleTwo>
+    <!-- <div class="contenedor-filter" appIntersectionVisibleTwo>
         <div class="filter all" (click)="getProjects()" [ngClass]="{'resaltado': seleccion ==='all' }">ALL</div>
         <div class="filter" (click)="getReact()" [ngClass]="{'resaltado': seleccion =='react' }">REACT</div>
         <div class="filter" (click)="getAngular()"  [ngClass]="{'resaltado': seleccion =='angular' }">ANGULAR</div>
         <div class="filter" (click)="getJS()" [ngClass]="{'resaltado': seleccion =='javascript' }">JAVASCRIPT</div>
-    </div>
+    </div> -->
     <div  class="galery fadeDown" appIntersectionVisible>
         <div id="project"  class="category"  *ngFor="let t of listaProjects; let i=index" style="background-image: url(assets/img/{{t.imagen}});">
             <div class="text-project">

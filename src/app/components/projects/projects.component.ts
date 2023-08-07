@@ -53,7 +53,7 @@ export class ProjectsComponent  implements AfterViewInit  {
    
   }
 
-  getReact(){
+ /*  getReact(){
     this.listaProjects = this.projects.filter(t => t.category=='REACT');
     this.seleccion = 'react';
   }
@@ -66,5 +66,5 @@ export class ProjectsComponent  implements AfterViewInit  {
     this.seleccion = 'angular';
     
   }
-
+ */
 }

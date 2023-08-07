@@ -624,6 +624,8 @@ section.services-about {
     transform: scale(0.9);
     transition: .7s ease-in-out all;
     transition-delay: 0.4s;
+    
+    display: none;
 }
 .contenedor-filter.visible{
 opacity: 1;
@@ -640,6 +642,7 @@ transform: scale(1);
     transform: scale(0.6);
     transition: .7s ease-in-out all;
   
+    margin-top: 20px;
 }
 
 .galery.fadeDown{
